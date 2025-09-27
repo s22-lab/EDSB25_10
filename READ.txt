@@ -1,0 +1,5 @@
+
+This can be used to install the packages through the terminal:
+"C:\Users\SaraEstevesHenriques\AppData\Local\Programs\Python\Python313\python.exe" -m pip install seaborn
+
+please make sure that you're using python 3.13.7 - command to select interpreter ctrl+shift+p
