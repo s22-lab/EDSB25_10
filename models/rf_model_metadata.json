@@ -1,0 +1,94 @@
+{
+  "model_type": "RandomForestClassifier",
+  "best_params": {
+    "bootstrap": true,
+    "class_weight": "balanced",
+    "max_depth": 7,
+    "max_features": "sqrt",
+    "min_samples_leaf": 8,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  },
+  "best_cv_f1": 0.5191978081737875,
+  "oob_score": 0.8061224489795918,
+  "auc_score": 0.7581187010078387,
+  "thresholds": {
+    "default": 0.5,
+    "f1_optimized": 0.6301400502073633,
+    "recall_optimized": 0.3954052229328224
+  },
+  "feature_importance": [
+    {
+      "Feature": "TotalWorkingYearsLog",
+      "Importance": 0.18960881653119124
+    },
+    {
+      "Feature": "YearsAtCompanyLog",
+      "Importance": 0.13442701591788267
+    },
+    {
+      "Feature": "OverTime_Yes",
+      "Importance": 0.10242602545341922
+    },
+    {
+      "Feature": "NumCompaniesWorked",
+      "Importance": 0.09775454155534145
+    },
+    {
+      "Feature": "JobSatisfaction",
+      "Importance": 0.07494790248344117
+    },
+    {
+      "Feature": "EnvironmentSatisfaction",
+      "Importance": 0.06861998104643668
+    },
+    {
+      "Feature": "JobInvolvement",
+      "Importance": 0.05333766709448769
+    },
+    {
+      "Feature": "MaritalStatus_Single",
+      "Importance": 0.05161174978563895
+    },
+    {
+      "Feature": "WorkLifeBalance",
+      "Importance": 0.048773793465054824
+    },
+    {
+      "Feature": "Department_Research & Development",
+      "Importance": 0.03525672512408621
+    },
+    {
+      "Feature": "BusinessTravel_Travel_Frequently",
+      "Importance": 0.03265017187135046
+    },
+    {
+      "Feature": "JobRole_Laboratory Technician",
+      "Importance": 0.03094336844305244
+    },
+    {
+      "Feature": "MaritalStatus_Married",
+      "Importance": 0.02333181377523152
+    },
+    {
+      "Feature": "JobRole_Sales Representative",
+      "Importance": 0.016383923275231065
+    },
+    {
+      "Feature": "JobRole_Healthcare Representative",
+      "Importance": 0.012834192670046747
+    },
+    {
+      "Feature": "JobRole_Research Director",
+      "Importance": 0.010026776804545967
+    },
+    {
+      "Feature": "JobRole_Manufacturing Director",
+      "Importance": 0.009097758590253425
+    },
+    {
+      "Feature": "JobRole_Manager",
+      "Importance": 0.007967776113308208
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+Here’s a step-by-step guide you can save as a `.txt` file for setting up your Python 3.10 environment, virtual environment, and installing project requirements:
+
+***
+
+**Python 3.10 Setup & Virtual Environment Instructions**
+
+1. **Download and Install Python 3.10**
+   - Get the installer from: https://www.python.org/downloads/release/python-3100/
+   - IMPORTANT: During installation, check the box to “Add Python 3.10 to PATH”.
+
+2. **Open a terminal (PowerShell or CMD)**
+
+3. **Navigate to your project folder**
+   ```powershell
+   cd path\to\your\project
+   ```
+
+4. **Create a new virtual environment using Python 3.10**
+   - If you have multiple Python versions, use the Python launcher:
+     ```powershell
+     py -3.10 -m venv environment
+     ```
+   - If only one Python, use:
+     ```powershell
+     python -m venv environment
+     ```
+
+5. **Activate the virtual environment**
+   - PowerShell:
+     ```powershell
+     .\environment\Scripts\activate
+     ```
+   - CMD:
+     ```cmd
+     environment\Scripts\activate.bat
+     ```
+   - Bash (macOS/Linux):
+     ```bash
+     source environment/bin/activate
+     ```
+
+6. **Upgrade pip (recommended)**
+   ```powershell
+   python -m pip install --upgrade pip
+   ```
+
+7. **Install all requirements from requirements file**
+   ```powershell
+   pip install -r environment/requirements.txt
+   ```
+   *or use `requirements.txt` if file is in the root folder*
+
+8. **Verify installation**
+   ```powershell
+   python --version
+   pip list
+   ```
+
+***
+
+You can copy and save these steps to a file named, for example, `setup_instructions.txt`. Let me know if you want this as a formatted text file or with project-specific filenames!
